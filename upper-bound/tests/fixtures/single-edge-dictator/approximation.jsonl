@@ -1,0 +1,22 @@
+{"type": "root", "key": {"candidate": {"kind": "report", "agent": 0}, "edges": [0, 0]}, "tree": "root"}
+{"type": "vertex", "id": "w0", "point": [{"vertex": "a"}, {"vertex": "a"}]}
+{"type": "vertex", "id": "w1", "point": [{"vertex": "b"}, {"vertex": "a"}]}
+{"type": "vertex", "id": "w2", "point": [{"vertex": "b"}, {"vertex": "b"}]}
+{"type": "vertex", "id": "w3", "point": [{"vertex": "a"}, {"vertex": "b"}]}
+{"type": "simplex", "id": "S0", "vertices": ["w0", "w1", "w2"], "truthful": "r0-root-0", "branches": [1, 1, 1, 1]}
+{"type": "simplex", "id": "S1", "vertices": ["w0", "w3", "w2"], "truthful": "r0-root-1", "branches": [1, 0, 1, 0]}
+{"type": "split", "id": "root", "normal": ["-1", "1"], "offset": "0", "minus": "rootm", "plus": "rootp"}
+{"type": "leaf", "id": "rootm", "simplex": "S0"}
+{"type": "leaf", "id": "rootp", "simplex": "S1"}
+{"type": "end"}
+{"type": "root", "key": {"candidate": {"kind": "report", "agent": 1}, "edges": [0, 0]}, "tree": "root"}
+{"type": "vertex", "id": "w0", "point": [{"vertex": "a"}, {"vertex": "a"}]}
+{"type": "vertex", "id": "w1", "point": [{"vertex": "b"}, {"vertex": "a"}]}
+{"type": "vertex", "id": "w2", "point": [{"vertex": "b"}, {"vertex": "b"}]}
+{"type": "vertex", "id": "w3", "point": [{"vertex": "a"}, {"vertex": "b"}]}
+{"type": "simplex", "id": "S0", "vertices": ["w0", "w1", "w2"], "truthful": "r0-root-0", "branches": [1, 1, 0, 1]}
+{"type": "simplex", "id": "S1", "vertices": ["w0", "w3", "w2"], "truthful": "r0-root-1", "branches": [1, 0, 1, 1]}
+{"type": "split", "id": "root", "normal": ["-1", "1"], "offset": "0", "minus": "rootm", "plus": "rootp"}
+{"type": "leaf", "id": "rootm", "simplex": "S0"}
+{"type": "leaf", "id": "rootp", "simplex": "S1"}
+{"type": "end"}

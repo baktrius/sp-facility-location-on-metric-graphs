@@ -1,0 +1,40 @@
+{
+  "identity": {
+    "formulation": "graph",
+    "result": "unconditional",
+    "graph": {
+      "vertices": [
+        "c0",
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "edges": [
+        [
+          "c0",
+          "c1"
+        ],
+        [
+          "c1",
+          "c2"
+        ],
+        [
+          "c2",
+          "c3"
+        ],
+        [
+          "c3",
+          "c0"
+        ]
+      ]
+    },
+    "subdivision": 1,
+    "agents": 2,
+    "support": "full"
+  },
+  "certified_value": "1",
+  "multipliers": {
+    "normalization_2": "1",
+    "welfare_2": "-1/2"
+  }
+}

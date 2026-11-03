@@ -1,0 +1,21 @@
+[
+  {
+    "configuration": "cycle-n3",
+    "direction": "lower",
+    "certificate": "certificates/lower/cycle-n3.json.xz",
+    "expected_bound": "10591173691/10000000000",
+    "sha256": "c2ed39c5c4648665dd7e9d2ca523d86eb404eb6c31cffb13326b57d0c18e7cf4",
+    "exit_code": 0,
+    "stdout": "10591173691/10000000000\n",
+    "stderr": "",
+    "seconds": 793.6788647390058,
+    "members": {
+      "cycle-n3.json": {
+        "bytes": 52596092,
+        "sha256": "7b4d428e7755a66ef2c07b238bc6d007cdf785c65f7cc96541218def02b8cf7a"
+      }
+    },
+    "accepted": true,
+    "status": "accepted"
+  }
+]

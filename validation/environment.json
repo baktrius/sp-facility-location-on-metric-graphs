@@ -1,0 +1,18 @@
+{
+  "preparation_date": "2026-11-02",
+  "python": "3.14.7 (main, Aug 25 2026, 03:38:25) [GCC 14.2.0]",
+  "platform": "Linux-6.12.113+deb13-amd64-x86_64-with-glibc2.41",
+  "lower_command": "python scripts/verify.py --direction lower --timeout 60 --report validation/lower-recheck.json",
+  "upper_tests_command": "cd upper-bound && .venv/bin/python -m pytest -q",
+  "lower_tests_command": "cd lower-bound && ../upper-bound/.venv/bin/python -m pytest -q tests",
+  "metric_tests_command": "python -m unittest discover -s scripts/tests",
+  "upper_smoke_command": "python -I -B with copied upper-bound/src on sys.path; module upper_bound_verifier; each fixture path in upper-smoke.json",
+  "inventory_command": "python -O scripts/check_inventory.py",
+  "source_hashes": "verifier-sources.json",
+  "upper_runtime_pins": {
+    "python": "3.14.7",
+    "python-flint": "0.9.0"
+  },
+  "upper_full_benchmark_replayed": false,
+  "lower_full_replay_note": "An initial uncapped cycle-n3 check was interrupted before completion; the bounded replay records each final handoff result."
+}

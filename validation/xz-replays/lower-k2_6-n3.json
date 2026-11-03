@@ -1,0 +1,21 @@
+[
+  {
+    "configuration": "k2_6-n3",
+    "direction": "lower",
+    "certificate": "certificates/lower/k2_6-n3.json.xz",
+    "expected_bound": "1077986727883871/1000000009460878",
+    "sha256": "cf30aa72435ccda4fb1c81b37bcaf8692cc3a564ea28295f4fc3edf695bf69f3",
+    "exit_code": 0,
+    "stdout": "1077986727883871/1000000009460878\n",
+    "stderr": "",
+    "seconds": 44.07026639500691,
+    "members": {
+      "k2_6-n3.json": {
+        "bytes": 649372,
+        "sha256": "5b995f3af843365d8015512d89756b9778bfe0b4d7f7afe7500411c7fd0d4985"
+      }
+    },
+    "accepted": true,
+    "status": "accepted"
+  }
+]

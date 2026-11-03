@@ -1,0 +1,160 @@
+{
+    "status": "complete",
+    "method": "numerical floating-point",
+    "provenance": {
+        "settings": {
+            "load_path": "mechanism.json",
+            "interactive": false,
+            "check_sp": false,
+            "check_lsp": true,
+            "check_anonymity": false,
+            "calc_apx": true,
+            "apx_threshold": null,
+            "min_scale": 7,
+            "max_scale": 8,
+            "scale": null,
+            "bound_apx": null,
+            "binsearch_apx": 1e-05,
+            "save_results": "check.json",
+            "track_time": true,
+            "v": 4,
+            "s": null
+        },
+        "source": {
+            "commit": "016dc96284874e2b626f37b985338ee4b69a4492",
+            "dirty": true,
+            "diff_sha256": "c1d7d385ccc978eec87fa9652e1f9a96760cd285c68e26e59a2c601f1b877f56",
+            "main_sha256": "0ee1bc8f8d81bfa6d681c7d64714c08cc72af2a7864d948cf5913de80a2b97ba"
+        },
+        "python": "3.13.17 (main, Oct 21 2026, 17:49:22) [Clang 23.1.3 ]",
+        "dependencies": {
+            "ipython_pygments_lexers": "1.1.1",
+            "wcwidth": "0.2.13",
+            "pluggy": "1.5.0",
+            "ipython": "9.0.2",
+            "contourpy": "1.3.1",
+            "six": "1.17.0",
+            "jedi": "0.19.2",
+            "packaging": "24.2",
+            "pillow": "11.1.0",
+            "pytest": "8.3.5",
+            "Pygments": "2.19.1",
+            "filelock": "3.18.0",
+            "matplotlib": "3.10.1",
+            "parso": "0.8.4",
+            "identify": "2.6.9",
+            "pre_commit": "4.2.0",
+            "stack-data": "0.6.3",
+            "fonttools": "4.56.0",
+            "numpy": "2.2.4",
+            "ruff": "0.11.1",
+            "traitlets": "5.14.3",
+            "platformdirs": "4.3.7",
+            "ptyprocess": "0.7.0",
+            "executing": "2.2.0",
+            "virtualenv": "20.29.3",
+            "typer": "0.15.2",
+            "decorator": "5.2.1",
+            "markdown-it-py": "3.0.0",
+            "shellingham": "1.5.4",
+            "asttokens": "3.0.0",
+            "kiwisolver": "1.4.8",
+            "prompt_toolkit": "3.0.50",
+            "python-dateutil": "2.9.0.post0",
+            "nodeenv": "1.9.1",
+            "PuLP": "3.0.2",
+            "click": "8.1.8",
+            "distlib": "0.3.9",
+            "networkx": "3.4.2",
+            "mdurl": "0.1.2",
+            "pyparsing": "3.2.1",
+            "PyYAML": "6.0.2",
+            "iniconfig": "2.1.0",
+            "mpmath": "1.3.0",
+            "rich": "13.9.4",
+            "pexpect": "4.9.0",
+            "pure_eval": "0.2.3",
+            "sympy": "1.13.3",
+            "cycler": "0.12.1",
+            "matplotlib-inline": "0.1.7",
+            "typing_extensions": "4.12.2",
+            "psutil": "7.2.2",
+            "cfgv": "3.4.0"
+        },
+        "cbc": {
+            "path": "/workspaces/lsp_exp/.venv/lib/python3.13/site-packages/pulp/solverdir/cbc/linux/64/cbc",
+            "version": "Welcome to the CBC MILP Solver \nVersion: 2.10.3 \nBuild Date: Dec 15 2019 \n\ncommand line - /workspaces/lsp_exp/.venv/lib/python3.13/site-packages/pulp/solverdir/cbc/linux/64/cbc -stop (default strategy 1)\nTotal time (CPU seconds):       0.00   (Wallclock seconds):       0.00"
+        },
+        "native_threads": {
+            "OMP_NUM_THREADS": null,
+            "OPENBLAS_NUM_THREADS": null,
+            "MKL_NUM_THREADS": null
+        }
+    },
+    "mechanism": {
+        "path": "mechanism.json",
+        "sha256": "dfd11a2b9baa34abfe2d51e1cdd14636a0e8d1395b1c771038af80c34e205b5e",
+        "candidate": "secondary",
+        "search_status": "complete"
+    },
+    "primary_objective": 1.2045455,
+    "sampled_ratio": 1.20454649875,
+    "events": {
+        "lsp_check": {
+            "start": 0.0021265350515022874,
+            "end": 0.5626116000348702,
+            "duration": 0.5604850649833679
+        },
+        "scale_7_apx_calc": {
+            "start": 0.56481465511024,
+            "end": 0.9105239521013573,
+            "duration": 0.3457092969911173
+        },
+        "scale_7_checks": {
+            "start": 0.5637380820699036,
+            "end": 0.910622162045911,
+            "duration": 0.34688407997600734
+        },
+        "scale_8_apx_calc": {
+            "start": 0.9120511010987684,
+            "end": 1.4194307670695707,
+            "duration": 0.5073796659708023
+        },
+        "scale_8_checks": {
+            "start": 0.9107737510930747,
+            "end": 1.4195308360503986,
+            "duration": 0.508757084957324
+        },
+        "scale_checks": {
+            "start": 0.5632754660909995,
+            "end": 1.4195326060289517,
+            "duration": 0.8562571399379522
+        },
+        "binsearch_apx": {
+            "start": 1.4200102030299604,
+            "end": 32.7251014620997,
+            "duration": 31.30509125906974
+        },
+        "total_run": {
+            "start": 1.200009137392044e-06,
+            "end": 32.725103392032906,
+            "duration": 32.72510219202377
+        }
+    },
+    "lsp_counterexample": null,
+    "apx_low": 1.2073866234375004,
+    "scale_results": {
+        "7": {
+            "apx": 1.207328762346939
+        },
+        "8": {
+            "apx": 1.2073866234375004
+        }
+    },
+    "binsearch_apx": {
+        "low": 1.2073866234375004,
+        "high": 1.2073945495712661
+    },
+    "peak_self_rss_kb": 199212,
+    "duration_seconds": 32.75297964701895
+}

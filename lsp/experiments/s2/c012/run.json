@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "origin": "archived experiment",
+  "source_directory": "runs/pilot-density-20261024T144146Z-cM3SIW/c12-s2-local0-avg1",
+  "phases": {
+    "search": {
+      "wall_seconds": 7.173,
+      "user_seconds": 7.092,
+      "system_seconds": 0.081,
+      "exit_code": 0
+    },
+    "check": {
+      "wall_seconds": 66.885,
+      "user_seconds": 66.814,
+      "system_seconds": 0.072,
+      "exit_code": 0
+    }
+  },
+  "primary_model": {
+    "rows": 2385,
+    "columns": 235,
+    "elements": 12204
+  },
+  "source_log_sha256": "42f004790a0f18c197ce9414b231d4d34cb9171f2ff18eeeebc68ff4902c7c9c",
+  "artifact_sha256": {
+    "mechanism.json": "9a55c13062c001617e60a0ed07abb880fb0f5e1e4a0447a201155df849ffc898",
+    "check.json": "d14cbe530c0de1a7beaa5fcbbf941f213809172a93aaa391306dcbc706e72af9"
+  }
+}

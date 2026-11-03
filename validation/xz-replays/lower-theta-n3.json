@@ -1,0 +1,21 @@
+[
+  {
+    "configuration": "theta-n3",
+    "direction": "lower",
+    "certificate": "certificates/lower/theta-n3.json.xz",
+    "expected_bound": "1078216584909/1000000000000",
+    "sha256": "09c08bf101830cd94cef5d41b6b5a0bec771f3dfec4330e1f94ab76e4476ea4a",
+    "exit_code": 0,
+    "stdout": "1078216584909/1000000000000\n",
+    "stderr": "",
+    "seconds": 25.39811213700159,
+    "members": {
+      "theta-n3.json": {
+        "bytes": 599874,
+        "sha256": "7a2ade2371bd43dd7d62325773e07f9adfe7753b4409ee11642141a4aa6e78c7"
+      }
+    },
+    "accepted": true,
+    "status": "accepted"
+  }
+]

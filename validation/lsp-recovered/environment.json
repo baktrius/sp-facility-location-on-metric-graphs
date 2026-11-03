@@ -1,0 +1,64 @@
+{
+  "verifier_python": "3.14.7 (main, Sep 29 2026, 15:01:40) [Clang 22.1.3 ]",
+  "python_flint": "0.9.0",
+  "search_python": "Python 3.13.5",
+  "setup_commands": [
+    "UV_PROJECT_ENVIRONMENT=\"$PWD/.scratch/s2-rational/env-verifier\" uv sync --project temp/sp-lower-bound-research/upper-bound-verifier --locked --no-dev",
+    "UV_PROJECT_ENVIRONMENT=\"$PWD/.scratch/s2-rational/env-search\" uv sync --project temp/lsp_exp --locked --no-dev --python /usr/bin/python3.13"
+  ],
+  "negative_control": {
+    "fixture": "temp/sp-lower-bound-research/upper-bound-verifier/tests/fixtures/single-edge-false-factor",
+    "exit_code": 1,
+    "failure": {
+      "code": "approximation_violation",
+      "kind": "counterexample",
+      "location": {
+        "candidate": {
+          "agent": 0,
+          "kind": "report"
+        },
+        "cell": "S0",
+        "comparison": "approximation",
+        "file": "approximation.jsonl",
+        "line": 6,
+        "root": {
+          "candidate": {
+            "agent": 0,
+            "kind": "report"
+          },
+          "edges": [
+            0,
+            0
+          ]
+        }
+      },
+      "message": "Expected social cost exceeds alpha times candidate social cost",
+      "witness": {
+        "alpha": "1",
+        "barycentric": [
+          "0",
+          "0",
+          "1"
+        ],
+        "candidate": {
+          "agent": 0,
+          "kind": "report"
+        },
+        "candidate_cost": "0",
+        "candidate_point": {
+          "vertex": "b"
+        },
+        "difference": "-2",
+        "mechanism_cost": "2",
+        "profile": [
+          {
+            "vertex": "b"
+          },
+          {
+            "vertex": "b"
+          }
+        ]
+      }
+    }
+  }
+}

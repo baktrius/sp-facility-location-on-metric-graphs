@@ -1,0 +1,92 @@
+{
+  "started_utc": "2026-11-02T13:30:28+00:00",
+  "completed_utc": "2026-11-02T14:45:42.030910+00:00",
+  "scope": "All 33 published certificates; small verifier test fixtures remain unpacked.",
+  "collections": {
+    "graph-lower": {
+      "count": 16,
+      "before_bytes": 166486969,
+      "after_bytes": 9365336
+    },
+    "recovered-upper": {
+      "count": 4,
+      "before_bytes": 2230367148,
+      "after_bytes": 18331032
+    },
+    "graph-upper": {
+      "count": 13,
+      "before_bytes": 5948913053,
+      "after_bytes": 2060632384
+    }
+  },
+  "certificate_bytes_before": 8345767170,
+  "certificate_bytes_after": 2088328752,
+  "reduction_percent": 74.977,
+  "compression": {
+    "preset": "6e",
+    "threads_per_process": [
+      1,
+      12
+    ],
+    "cpu_affinity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "memory_limit_bytes": 4294967296,
+    "summed_successful_wall_seconds": 3778.277,
+    "maximum_sampled_process_rss_bytes": 1532518400,
+    "xz_version": "xz (XZ Utils) 5.8.1\nliblzma 5.8.1"
+  },
+  "decompression": {
+    "threads": 1,
+    "enforced_decoder_memory_limit_bytes": 536870912,
+    "all_archive_decoder_requirements_bytes": 8454808,
+    "measured_runs": {
+      "c016": {
+        "wall_seconds": 0.663559,
+        "cpu_seconds": 0.661915,
+        "peak_rss_bytes": 10428416
+      },
+      "cycle": {
+        "wall_seconds": 29.632161,
+        "cpu_seconds": 29.597848,
+        "peak_rss_bytes": 10412032
+      }
+    }
+  },
+  "verification": {
+    "complete_proof_replays": 20,
+    "accepted": 20,
+    "lower": 16,
+    "recovered_upper": 4,
+    "graph_upper_proofs_rerun": 0,
+    "historical_graph_upper_acceptances_preserved": 13,
+    "all_archive_member_hashes_checked": true,
+    "graph_inventory_cases_checked": 16,
+    "mathematical_verifier_source_files_unchanged": 28,
+    "historical_verification_json_files_unchanged": 16,
+    "transport_and_metric_tests_passed": 12,
+    "replay_interpreter": "Python 3.14.7"
+  },
+  "original_inputs_backup": ".scratch/xz-migration-20261102/originals (outside the release archive)",
+  "notes": [
+    "Historical acceptance records were not rewritten. Packaging manifest binds new archive hashes to original member hashes.",
+    "Compression RSS was sampled every 0.2 seconds and can miss short peaks; decoder RSS was measured with wait4.",
+    "Full historical graph-upper proof replay would exceed the four-hour budget; its unchanged inputs were checked in full.",
+    "The initial large-file attempt exposed the USTAR 8 GiB limit; GNU TAR was used for the graph bundles."
+  ]
+}

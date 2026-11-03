@@ -1,0 +1,4 @@
+{"id": "v0", "point": [{"vertex": "a"}, {"vertex": "a"}]}
+{"id": "v1", "point": [{"vertex": "b"}, {"vertex": "a"}]}
+{"id": "v2", "point": [{"vertex": "b"}, {"vertex": "b"}]}
+{"id": "v3", "point": [{"vertex": "a"}, {"vertex": "b"}]}

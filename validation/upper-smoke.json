@@ -1,0 +1,58 @@
+[
+  {
+    "exit_code": 0,
+    "stdout": "1\n",
+    "stderr": "",
+    "seconds": 0.05082458299875725,
+    "fixture": "upper-bound/tests/fixtures/single-edge-dictator",
+    "file_sha256": {
+      "attribution.jsonl": "f12d77bab6e59702363aeb5ce328bf2365633630a59b00c5e7c060c0113fed0c",
+      "manifest.json": "8d59f6ee2385c2a9474346f7d24f14cd456c5fd695aa76b2947420b44f71df37",
+      "vertices.jsonl": "d4d8087fd69d3124163ab36c3d0ae78b6c01ac4d4cab65acaf874124775259b2",
+      "approximation.jsonl": "79a1d9b3d4e141af09212ddf631465db1d3b0291d080243f4a5df3a6dd125fca",
+      "sp.jsonl": "ad0fe6bbec5d5a6f394752b75531fd625bccd60b6df3bed2dfffcb928315a1f5"
+    }
+  },
+  {
+    "exit_code": 0,
+    "stdout": "1\n",
+    "stderr": "",
+    "seconds": 2.2672991970030125,
+    "fixture": "upper-bound/tests/fixtures/four-cycle-dictator",
+    "file_sha256": {
+      "attribution.jsonl": "b569598d321d4bdc1908552b74b883e326f0d03c7e97e7f3518aeb4a2f5d2485",
+      "manifest.json": "05562fcaf7333eb03bc2499ddf2248905401c40a9bdb544e51d9b8ec985da520",
+      "vertices.jsonl": "4db073ebc148c9ed800deed839bed52f232986fff2d6337053137d7e6f6c235e",
+      "approximation.jsonl": "a665be6f3e09c55c538687d80f740a474e6be28be6a8b84c080c8aeacda560ba",
+      "sp.jsonl": "d41cbd412e86e45a4da841d3b3502b89753dd4ac24cdd07e525ef001208425fe"
+    }
+  },
+  {
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "{\"code\": \"sp_violation\", \"kind\": \"counterexample\", \"location\": {\"agent\": 0, \"cell\": \"S3\", \"comparison\": \"sp\", \"file\": \"sp.jsonl\", \"line\": 13, \"root\": {\"agent\": 0, \"edges\": [0, 0, 0]}}, \"message\": \"A deviation strictly decreases expected distance to the true location\", \"witness\": {\"agent\": 0, \"barycentric\": [\"0\", \"1/2\", \"1/2\", \"0\"], \"deviated_cost\": \"3/4\", \"deviation\": {\"coordinate\": \"1/2\", \"edge\": 0}, \"difference\": \"-1/4\", \"profile\": [{\"vertex\": \"a\"}, {\"vertex\": \"b\"}], \"truthful_cost\": \"1\"}}\n",
+    "seconds": 0.060450554999988526,
+    "fixture": "upper-bound/tests/fixtures/single-edge-non-sp",
+    "file_sha256": {
+      "attribution.jsonl": "77f3f8cd873bb76d153490edddc1039471236963167678dcef593f173d30ede0",
+      "manifest.json": "17778ed12fce84651918c0aeba7ad1bbba403a2a13afd328d9ea9bbab9d56fbe",
+      "vertices.jsonl": "4206b213f6d93bc5034c8730c36135945383128395e905dc2ec8c8dcab92725a",
+      "approximation.jsonl": "c8fc7c4cac4094bd0b7494c8dc00da38e0ecdb799b17251ee05583ff65a1216b",
+      "sp.jsonl": "4b21e3cb4603e7b6c139045448964d0906a1fbf8dd8392932c55ac50b2932239"
+    }
+  },
+  {
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "{\"code\": \"approximation_violation\", \"kind\": \"counterexample\", \"location\": {\"candidate\": {\"agent\": 0, \"kind\": \"report\"}, \"cell\": \"S0\", \"comparison\": \"approximation\", \"file\": \"approximation.jsonl\", \"line\": 6, \"root\": {\"candidate\": {\"agent\": 0, \"kind\": \"report\"}, \"edges\": [0, 0]}}, \"message\": \"Expected social cost exceeds alpha times candidate social cost\", \"witness\": {\"alpha\": \"1\", \"barycentric\": [\"0\", \"0\", \"1\"], \"candidate\": {\"agent\": 0, \"kind\": \"report\"}, \"candidate_cost\": \"0\", \"candidate_point\": {\"vertex\": \"b\"}, \"difference\": \"-2\", \"mechanism_cost\": \"2\", \"profile\": [{\"vertex\": \"b\"}, {\"vertex\": \"b\"}]}}\n",
+    "seconds": 0.06617947299673688,
+    "fixture": "upper-bound/tests/fixtures/single-edge-false-factor",
+    "file_sha256": {
+      "attribution.jsonl": "1ce2afc4b8799d3d4f0b64edef740cb1b3374b7038afbc635841fd6739ab5871",
+      "manifest.json": "17778ed12fce84651918c0aeba7ad1bbba403a2a13afd328d9ea9bbab9d56fbe",
+      "vertices.jsonl": "4206b213f6d93bc5034c8730c36135945383128395e905dc2ec8c8dcab92725a",
+      "approximation.jsonl": "c8fc7c4cac4094bd0b7494c8dc00da38e0ecdb799b17251ee05583ff65a1216b",
+      "sp.jsonl": "4b21e3cb4603e7b6c139045448964d0906a1fbf8dd8392932c55ac50b2932239"
+    }
+  }
+]

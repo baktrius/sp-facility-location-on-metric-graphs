@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+build/
+*.egg-info/
+
+# Certificate downloads are distributed separately from the source repository.
+/certificates/**/*.xz

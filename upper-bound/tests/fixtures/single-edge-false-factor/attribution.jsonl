@@ -1,0 +1,7 @@
+{"type":"root","key":{"edges":[0,0]},"tree":"root"}
+{"type":"simplex","id":"r0-root-0","vertices":["v0","v1","v2"],"weights":[["0","0","1"],["0","0","1"],["0","0","1"]]}
+{"type":"simplex","id":"r0-root-1","vertices":["v0","v3","v2"],"weights":[["0","0","1"],["0","0","1"],["0","0","1"]]}
+{"type":"split","id":"root","normal":["-1","1"],"offset":"0","minus":"rootm","plus":"rootp"}
+{"type":"leaf","id":"rootm","simplex":"r0-root-0"}
+{"type":"leaf","id":"rootp","simplex":"r0-root-1"}
+{"type":"end"}

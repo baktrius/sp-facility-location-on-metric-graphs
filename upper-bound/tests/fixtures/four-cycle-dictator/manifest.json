@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "identity": {
+    "formulation": "metric_graph_upper",
+    "result": "unconditional",
+    "graph": {
+      "vertices": [
+        "c0",
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "edges": [
+        [
+          "c0",
+          "c1"
+        ],
+        [
+          "c1",
+          "c2"
+        ],
+        [
+          "c2",
+          "c3"
+        ],
+        [
+          "c3",
+          "c0"
+        ]
+      ]
+    },
+    "agents": 2,
+    "selectors": [
+      {
+        "kind": "peak",
+        "agent": 0
+      }
+    ]
+  },
+  "certified_value": "1"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "configuration": "c008",
+    "direction": "upper",
+    "certificate": "certificates/upper/lsp-recovered/c008.tar.xz",
+    "expected_bound": "120738663/100000000",
+    "sha256": "f11fb33f53e17c4954adda56263952e0504018af9393e777bc1eda3181be8e3a",
+    "exit_code": 0,
+    "stdout": "120738663/100000000\n",
+    "stderr": "",
+    "seconds": 224.11285526800202,
+    "members": {
+      "approximation.jsonl": {
+        "bytes": 3323646,
+        "sha256": "fe85991d7cec7530b1af4cb35ee80de4d7c7a68a98dff95fb5a495f81402ff91"
+      },
+      "attribution.jsonl": {
+        "bytes": 1402820,
+        "sha256": "24cde266bf59dbce4438a8a551b4674e9da4c9ed376b8d42201a435e6d31e3fe"
+      },
+      "manifest.json": {
+        "bytes": 986,
+        "sha256": "af40a906bd54a1a582249f503e79fe6d25cf954e7ee6508f1810b1c4955d4773"
+      },
+      "sp.jsonl": {
+        "bytes": 97206144,
+        "sha256": "14af80887f5a772266635030d9153e3187929228f5e0c725e324a54143a02a02"
+      },
+      "vertices.jsonl": {
+        "bytes": 36754,
+        "sha256": "5b9187e6bd153ebd8e917b1663f9a01ac9e9300b93557d4fc1628a70e7fa947a"
+      }
+    },
+    "accepted": true,
+    "status": "accepted"
+  }
+]

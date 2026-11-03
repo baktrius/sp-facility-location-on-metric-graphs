@@ -1,0 +1,82 @@
+[
+  {
+    "case": "recovered-c016",
+    "exit_code": 0
+  },
+  {
+    "case": "recovered-c012",
+    "exit_code": 0
+  },
+  {
+    "case": "lower-cycle-n3",
+    "exit_code": 0
+  },
+  {
+    "case": "lower-k2_5-n5",
+    "exit_code": 0
+  },
+  {
+    "case": "lower-k2_6-n6",
+    "exit_code": 0
+  },
+  {
+    "case": "lower-cycle-n4",
+    "exit_code": 0
+  },
+  {
+    "case": "lower-k2_6-n3",
+    "exit_code": 0
+  },
+  {
+    "case": "lower-k3_3-n3",
+    "exit_code": 0
+  },
+  {
+    "case": "lower-k2_5-n3",
+    "exit_code": 0
+  },
+  {
+    "case": "lower-k2_4-n3",
+    "exit_code": 0
+  },
+  {
+    "case": "lower-theta-n3",
+    "exit_code": 0
+  },
+  {
+    "case": "lower-k2_4-n4",
+    "exit_code": 0
+  },
+  {
+    "case": "lower-c6_pendant-n3",
+    "exit_code": 0
+  },
+  {
+    "case": "lower-c4_pendant-n3",
+    "exit_code": 0
+  },
+  {
+    "case": "lower-theta_244-n3",
+    "exit_code": 0
+  },
+  {
+    "case": "lower-theta_224-n3",
+    "exit_code": 0
+  },
+  {
+    "case": "lower-domino-n3",
+    "exit_code": 0
+  },
+  {
+    "case": "lower-bowtie-n3",
+    "exit_code": 0
+  },
+  {
+    "case": "recovered-c008",
+    "exit_code": 0
+  },
+  {
+    "case": "recovered-c004",
+    "exit_code": 0
+  }
+]

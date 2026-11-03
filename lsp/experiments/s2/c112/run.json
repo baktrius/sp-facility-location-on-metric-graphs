@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "origin": "archived experiment",
+  "source_directory": "runs/manual-ladder-20261024T200157Z/c112-s2",
+  "phases": {
+    "search": {
+      "wall_seconds": 43319.25,
+      "peak_rss_kib": 11584792,
+      "exit_code": 0
+    },
+    "check": {
+      "wall_seconds": 9542.29,
+      "peak_rss_kib": 20635800,
+      "exit_code": 0
+    }
+  },
+  "primary_model": {
+    "rows": 1462623,
+    "columns": 18985,
+    "elements": 9234329
+  },
+  "source_log_sha256": "fe6755ac94de2f3c5f0800e0dcf33c868191316c13ac3a7d9171f310ae908dc6",
+  "artifact_sha256": {
+    "mechanism.json": "b2729ff3c0a01be55f02f4c0eb21d4fec8677793a48043bd8ca80460d0a7ac24",
+    "check.json": "7304b743c5ed8650285bff30eac301a14b4f52ac7bcce055f5a3085bd6c84292"
+  }
+}

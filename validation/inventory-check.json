@@ -1,0 +1,326 @@
+[
+  {
+    "configuration": "cycle-n3",
+    "lower_metric_correspondence": {
+      "vertices": {
+        "0": 0
+      },
+      "source_scale": 240,
+      "target_scale": 4,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    },
+    "upper_metric_correspondence": {
+      "vertices": {
+        "0": 0
+      },
+      "source_scale": 4,
+      "target_scale": 4,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    },
+    "recorded_upper_code_and_pins_match": true
+  },
+  {
+    "configuration": "c4_pendant-n3",
+    "lower_metric_correspondence": {
+      "vertices": {
+        "0": 0,
+        "1": 1
+      },
+      "source_scale": 18,
+      "target_scale": 1,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    },
+    "upper_metric_correspondence": {
+      "vertices": {
+        "0": 0,
+        "1": 1
+      },
+      "source_scale": 1,
+      "target_scale": 1,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    },
+    "recorded_upper_code_and_pins_match": true
+  },
+  {
+    "configuration": "theta-n3",
+    "lower_metric_correspondence": {
+      "vertices": {
+        "0": 0,
+        "1": 1
+      },
+      "source_scale": 240,
+      "target_scale": 4,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    },
+    "upper_metric_correspondence": {
+      "vertices": {
+        "0": 0,
+        "1": 1
+      },
+      "source_scale": 4,
+      "target_scale": 4,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    },
+    "recorded_upper_code_and_pins_match": true
+  },
+  {
+    "configuration": "c6_pendant-n3",
+    "lower_metric_correspondence": {
+      "vertices": {
+        "0": 0,
+        "1": 1
+      },
+      "source_scale": 12,
+      "target_scale": 1,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    },
+    "upper_metric_correspondence": {
+      "vertices": {
+        "0": 0,
+        "1": 1
+      },
+      "source_scale": 1,
+      "target_scale": 1,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    },
+    "recorded_upper_code_and_pins_match": true
+  },
+  {
+    "configuration": "theta_244-n3",
+    "lower_metric_correspondence": {
+      "vertices": {
+        "0": 0,
+        "1": 1
+      },
+      "source_scale": 14,
+      "target_scale": 2,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    },
+    "upper_metric_correspondence": {
+      "vertices": {
+        "0": 0,
+        "1": 1
+      },
+      "source_scale": 2,
+      "target_scale": 2,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    },
+    "recorded_upper_code_and_pins_match": true
+  },
+  {
+    "configuration": "k2_4-n3",
+    "lower_metric_correspondence": {
+      "vertices": {
+        "0": 0,
+        "1": 1
+      },
+      "source_scale": 240,
+      "target_scale": 2,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    },
+    "upper_metric_correspondence": {
+      "vertices": {
+        "0": 0,
+        "1": 1
+      },
+      "source_scale": 2,
+      "target_scale": 2,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    },
+    "recorded_upper_code_and_pins_match": true
+  },
+  {
+    "configuration": "cycle-n4",
+    "lower_metric_correspondence": {
+      "vertices": {
+        "0": 0
+      },
+      "source_scale": 120,
+      "target_scale": 4,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    },
+    "upper_metric_correspondence": {
+      "vertices": {
+        "0": 0
+      },
+      "source_scale": 4,
+      "target_scale": 4,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    },
+    "recorded_upper_code_and_pins_match": true
+  },
+  {
+    "configuration": "k3_3-n3",
+    "lower_metric_correspondence": {
+      "vertices": {
+        "0": 0,
+        "1": 1,
+        "2": 3,
+        "3": 4,
+        "4": 5,
+        "5": 2
+      },
+      "source_scale": 120,
+      "target_scale": 1,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    },
+    "upper_metric_correspondence": {
+      "vertices": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5
+      },
+      "source_scale": 1,
+      "target_scale": 1,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    },
+    "recorded_upper_code_and_pins_match": true
+  },
+  {
+    "configuration": "k2_5-n3",
+    "lower_metric_correspondence": {
+      "vertices": {
+        "0": 0,
+        "1": 1
+      },
+      "source_scale": 240,
+      "target_scale": 2,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    },
+    "upper_metric_correspondence": {
+      "vertices": {
+        "0": 0,
+        "1": 1
+      },
+      "source_scale": 2,
+      "target_scale": 2,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    },
+    "recorded_upper_code_and_pins_match": true
+  },
+  {
+    "configuration": "k2_6-n3",
+    "lower_metric_correspondence": {
+      "vertices": {
+        "0": 0,
+        "1": 1
+      },
+      "source_scale": 240,
+      "target_scale": 2,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    },
+    "upper_metric_correspondence": {
+      "vertices": {
+        "0": 0,
+        "1": 1
+      },
+      "source_scale": 2,
+      "target_scale": 2,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    },
+    "recorded_upper_code_and_pins_match": true
+  },
+  {
+    "configuration": "theta_224-n3",
+    "lower_metric_correspondence": {
+      "vertices": {
+        "0": 0,
+        "1": 1
+      },
+      "source_scale": 18,
+      "target_scale": 2,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    },
+    "upper_metric_correspondence": {
+      "vertices": {
+        "0": 0,
+        "1": 1
+      },
+      "source_scale": 2,
+      "target_scale": 2,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    },
+    "recorded_upper_code_and_pins_match": true
+  },
+  {
+    "configuration": "domino-n3",
+    "lower_metric_correspondence": {
+      "vertices": {
+        "0": 0,
+        "1": 1
+      },
+      "source_scale": 8,
+      "target_scale": 1,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    },
+    "upper_metric_correspondence": {
+      "vertices": {
+        "0": 0,
+        "1": 1
+      },
+      "source_scale": 1,
+      "target_scale": 1,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    },
+    "recorded_upper_code_and_pins_match": true
+  },
+  {
+    "configuration": "bowtie-n3",
+    "lower_metric_correspondence": {
+      "vertices": {
+        "0": 0
+      },
+      "source_scale": 28,
+      "target_scale": 4,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    },
+    "upper_metric_correspondence": {
+      "vertices": {
+        "0": 0
+      },
+      "source_scale": 4,
+      "target_scale": 4,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    },
+    "recorded_upper_code_and_pins_match": true
+  },
+  {
+    "configuration": "k2_4-n4",
+    "lower_metric_correspondence": {
+      "vertices": {
+        "0": 0,
+        "1": 1
+      },
+      "source_scale": 18,
+      "target_scale": 2,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    }
+  },
+  {
+    "configuration": "k2_5-n5",
+    "lower_metric_correspondence": {
+      "vertices": {
+        "0": 0,
+        "1": 1
+      },
+      "source_scale": 24,
+      "target_scale": 2,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    }
+  },
+  {
+    "configuration": "k2_6-n6",
+    "lower_metric_correspondence": {
+      "vertices": {
+        "0": 0,
+        "1": 1
+      },
+      "source_scale": 32,
+      "target_scale": 2,
+      "checked": "bijection and all normalized path incidences/length multiplicities"
+    }
+  }
+]

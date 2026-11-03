@@ -1,0 +1,37 @@
+[
+  {
+    "configuration": "c004",
+    "direction": "upper",
+    "certificate": "certificates/upper/lsp-recovered/c004.tar.xz",
+    "expected_bound": "5/4",
+    "sha256": "073c330d1b475cde8063929e0d26bf0d67e77d412fc62e5e9bf2eed7f4c5e92b",
+    "exit_code": 0,
+    "stdout": "5/4\n",
+    "stderr": "",
+    "seconds": 13.69199138499971,
+    "members": {
+      "approximation.jsonl": {
+        "bytes": 414390,
+        "sha256": "7f063ef87afde77f994882d241e70ac3be0edf5729db3bd1864794550a9c218e"
+      },
+      "attribution.jsonl": {
+        "bytes": 106164,
+        "sha256": "03edd6276f5088e1b9cefde7ecf8166d991e2c8c05643d75f8665c13f789cac1"
+      },
+      "manifest.json": {
+        "bytes": 706,
+        "sha256": "b10fa8d3b69bb7ae2a87ec132606f3d23882910826e0d6bade06b106a7098b97"
+      },
+      "sp.jsonl": {
+        "bytes": 6041280,
+        "sha256": "7dc2707577270e0f64e0d55ec8f64e254c3a20d21b1f434588abdb328eb6da10"
+      },
+      "vertices.jsonl": {
+        "bytes": 4534,
+        "sha256": "6ae5b3976fc28992386a8f599f6db1733aefdd42a71fca58320a208e505f1607"
+      }
+    },
+    "accepted": true,
+    "status": "accepted"
+  }
+]

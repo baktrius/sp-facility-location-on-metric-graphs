@@ -1,0 +1,21 @@
+[
+  {
+    "configuration": "bowtie-n3",
+    "direction": "lower",
+    "certificate": "certificates/lower/bowtie-n3.json.xz",
+    "expected_bound": "64147111787400647733783486770081637/61402206670252799027987944333718590",
+    "sha256": "10ce151213c57c52b8fa5f3fba5bc7a8ea38349190eaa0e98b58a71dbf95241b",
+    "exit_code": 0,
+    "stdout": "64147111787400647733783486770081637/61402206670252799027987944333718590\n",
+    "stderr": "",
+    "seconds": 0.14583297100034542,
+    "members": {
+      "bowtie-n3.json": {
+        "bytes": 13882,
+        "sha256": "cb1fb695d7d8f4b713234f998fd3a5c13b501e6c04aed4980bb0679a699c4763"
+      }
+    },
+    "accepted": true,
+    "status": "accepted"
+  }
+]

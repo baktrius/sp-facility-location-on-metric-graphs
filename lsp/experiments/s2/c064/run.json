@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "origin": "archived experiment",
+  "source_directory": "runs/c64-parallel-20261024T174400Z-qNMYts/c64-s2-cache10",
+  "phases": {
+    "search": {
+      "wall_seconds": 2424.54,
+      "user_seconds": 2421.29,
+      "system_seconds": 4.75,
+      "peak_rss_kib": 8863908,
+      "exit_code": 0
+    },
+    "check": {
+      "wall_seconds": 1995.42,
+      "user_seconds": 1995.17,
+      "system_seconds": 1.77,
+      "peak_rss_kib": 4584412,
+      "exit_code": 0
+    }
+  },
+  "primary_model": {
+    "rows": 280971,
+    "columns": 6241,
+    "elements": 1736813
+  },
+  "source_log_sha256": "2f06051c315ebeb5fa9020ab141303a3cf34828d8e9d3ec68eb3991c3e88c48f",
+  "artifact_sha256": {
+    "mechanism.json": "4c2d0daef94b37e24a69fe44feaaf4a14cb0be3885831a6d10d79f93bd1aa407",
+    "check.json": "57bd5c5395d840ef9e97db632cc59f62a7f8e0bb5c2e8c55a8c9b3f764413643"
+  }
+}

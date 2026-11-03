@@ -1,0 +1,47 @@
+{
+  "identity": {
+    "agents": 3,
+    "formulation": "graph",
+    "graph": {
+      "edges": [
+        [
+          "u",
+          "a"
+        ],
+        [
+          "a",
+          "v"
+        ],
+        [
+          "u",
+          "b"
+        ],
+        [
+          "b",
+          "v"
+        ],
+        [
+          "u",
+          "c"
+        ],
+        [
+          "c",
+          "v"
+        ]
+      ],
+      "vertices": [
+        "u",
+        "v",
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "model_hash": "9433879e41c2994aff93d4dc99b73c5411aff3053cc4bc238b0ee9413a3be3cb",
+    "result": "unconditional",
+    "subdivision": 1,
+    "support": "full"
+  },
+  "certified_value": "1",
+  "multipliers": {}
+}

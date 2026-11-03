@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling==1.32.4"]
+build-backend = "hatchling.build"
+
+[project]
+name = "upper-bound-verifier"
+version = "0.1.0"
+description = "Exact checks for supplied continuous metric-graph upper certificates"
+readme = "README.md"
+requires-python = "==3.14.7"
+dependencies = ["python-flint==0.9.0"]
+
+[dependency-groups]
+dev = ["pytest==9.1.1", "ruff==0.17.0", "ty==0.0.86"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/upper_bound_verifier"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+extend-select = ["B", "UP", "I"]
+
+[tool.ty.src]
+include = ["src", "tests"]

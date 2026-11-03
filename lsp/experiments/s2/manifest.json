@@ -1,0 +1,110 @@
+{
+  "description": "Completed s=2 cycle mechanism experiments, one per cycle size",
+  "selection": "Latest completed hash-matching check per cycle size from 20 completed source runs; original mechanism and check bytes preserved.",
+  "selected_runs": [
+    {
+      "case": "c004",
+      "source_directory": "runs/c4-s2-20261026T111006Z/c4-s2",
+      "original_check_mtime": 1793013012.7263367
+    },
+    {
+      "case": "c008",
+      "source_directory": "runs/c8-s2-20261026T111050Z/c8-s2",
+      "original_check_mtime": 1793013085.9894881
+    },
+    {
+      "case": "c012",
+      "source_directory": "runs/pilot-density-20261024T144146Z-cM3SIW/c12-s2-local0-avg1",
+      "original_check_mtime": 1792853028.824578
+    },
+    {
+      "case": "c016",
+      "source_directory": "runs/pilot-density-20261024T144146Z-cM3SIW/c16-s2-local0-avg1",
+      "original_check_mtime": 1792853181.5106318
+    },
+    {
+      "case": "c020",
+      "source_directory": "runs/pilot-density-20261024T144146Z-cM3SIW/c20-s2-local0-avg1",
+      "original_check_mtime": 1792853490.0546117
+    },
+    {
+      "case": "c024",
+      "source_directory": "runs/pilot-validation-20261024T145212Z-gCVwQ1/c24-s2-local0-avg1",
+      "original_check_mtime": 1792853814.5303073
+    },
+    {
+      "case": "c028",
+      "source_directory": "runs/main-ladder-20261024T152414Z-2D8H1H/c28-s2-local0-avg1",
+      "original_check_mtime": 1792855878.1475255
+    },
+    {
+      "case": "c032",
+      "source_directory": "runs/main-ladder-20261024T152414Z-2D8H1H/c32-s2-local0-avg1",
+      "original_check_mtime": 1792856435.9881854
+    },
+    {
+      "case": "c036",
+      "source_directory": "runs/main-ladder-20261024T152414Z-2D8H1H/c36-s2-local0-avg1",
+      "original_check_mtime": 1792857149.3509176
+    },
+    {
+      "case": "c040",
+      "source_directory": "runs/main-ladder-20261024T152414Z-2D8H1H/c40-s2-local0-avg1",
+      "original_check_mtime": 1792858084.1987934
+    },
+    {
+      "case": "c044",
+      "source_directory": "runs/main-ladder-20261024T152414Z-2D8H1H/c44-s2-local0-avg1",
+      "original_check_mtime": 1792859327.2658112
+    },
+    {
+      "case": "c048",
+      "source_directory": "runs/main-ladder-20261024T152414Z-2D8H1H/c48-s2-local0-avg1",
+      "original_check_mtime": 1792860899.892255
+    },
+    {
+      "case": "c064",
+      "source_directory": "runs/c64-parallel-20261024T174400Z-qNMYts/c64-s2-cache10",
+      "original_check_mtime": 1792868260.441902
+    },
+    {
+      "case": "c080",
+      "source_directory": "runs/manual-ladder-20261024T200157Z/c80-s2",
+      "original_check_mtime": 1792892449.7782245
+    },
+    {
+      "case": "c096",
+      "source_directory": "runs/manual-ladder-20261024T200157Z/c96-s2",
+      "original_check_mtime": 1792917213.305506
+    },
+    {
+      "case": "c112",
+      "source_directory": "runs/manual-ladder-20261024T200157Z/c112-s2",
+      "original_check_mtime": 1792970074.827058
+    },
+    {
+      "case": "c128",
+      "source_directory": "runs/c128-s2-20261026T111146Z/c128-s2",
+      "original_check_mtime": 1793114859.6132958
+    }
+  ],
+  "other_completed_sources": [
+    "runs/c64-parallel-20261024T174400Z-qNMYts/c64-s2-cache2",
+    "runs/pilot-density-20261024T144146Z-cM3SIW/c8-s2-local0-avg1",
+    "runs/pilot-validation-20261024T145212Z-gCVwQ1/c4-s2-local0-avg1"
+  ],
+  "machine": {
+    "cpu": "AMD Ryzen 9 9950X 16-Core Processor",
+    "physical_cores": 16,
+    "logical_cpus": 32,
+    "architecture": "x86_64",
+    "system": "Linux devcontainer",
+    "hardware_source": "results/pilots/artifacts/pilot-validation-20261024T145212Z-gCVwQ1/hardware.txt",
+    "note": "Recorded campaign hardware; detailed RAM capacity was not archived. CPU quotas, cache budgets and native thread settings varied across runs."
+  },
+  "timing_note": "Performance benchmarking was not the objective. Times are order-of-magnitude guidance; other processes and runtime settings may affect them.",
+  "source_code": {
+    "main.py": "0ee1bc8f8d81bfa6d681c7d64714c08cc72af2a7864d948cf5913de80a2b97ba"
+  },
+  "artifact_note": "Provenance commits can refer to a local unpublished research branch. All selected solver source hashes match the main.py published here."
+}

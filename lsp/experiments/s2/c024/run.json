@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "origin": "archived experiment",
+  "source_directory": "runs/pilot-validation-20261024T145212Z-gCVwQ1/c24-s2-local0-avg1",
+  "phases": {
+    "search": {
+      "wall_seconds": 57.175,
+      "user_seconds": 56.948,
+      "system_seconds": 0.237,
+      "peak_rss_kib": 932492,
+      "exit_code": 0
+    },
+    "check": {
+      "wall_seconds": 225.585,
+      "user_seconds": 225.474,
+      "system_seconds": 0.172,
+      "peak_rss_kib": 515524,
+      "exit_code": 0
+    }
+  },
+  "primary_model": {
+    "rows": 16461,
+    "columns": 901,
+    "elements": 94169
+  },
+  "source_log_sha256": "694b01cb65627c5dc958410e79ba30651f8345e3c082d8194d3564e38584d5a7",
+  "artifact_sha256": {
+    "mechanism.json": "ff8f132c60ad3151258b87f0fc4909478485b4b72a481056bc559052793cc5c8",
+    "check.json": "b93c765173840062230b5abdbf64b84562a57fdf4bf2a7e2882674c4dfe853a6"
+  }
+}

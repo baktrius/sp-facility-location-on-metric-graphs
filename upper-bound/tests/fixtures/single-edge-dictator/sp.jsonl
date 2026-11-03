@@ -1,0 +1,54 @@
+{"type": "root", "key": {"agent": 0, "edges": [0, 0, 0]}, "tree": "root"}
+{"type": "vertex", "id": "w0", "point": [{"vertex": "a"}, {"vertex": "a"}, {"vertex": "a"}]}
+{"type": "vertex", "id": "w1", "point": [{"vertex": "b"}, {"vertex": "a"}, {"vertex": "a"}]}
+{"type": "vertex", "id": "w2", "point": [{"vertex": "b"}, {"vertex": "b"}, {"vertex": "a"}]}
+{"type": "vertex", "id": "w3", "point": [{"vertex": "b"}, {"vertex": "b"}, {"vertex": "b"}]}
+{"type": "vertex", "id": "w4", "point": [{"vertex": "b"}, {"vertex": "a"}, {"vertex": "b"}]}
+{"type": "vertex", "id": "w5", "point": [{"vertex": "a"}, {"vertex": "b"}, {"vertex": "a"}]}
+{"type": "vertex", "id": "w6", "point": [{"vertex": "a"}, {"vertex": "b"}, {"vertex": "b"}]}
+{"type": "vertex", "id": "w7", "point": [{"vertex": "a"}, {"vertex": "a"}, {"vertex": "b"}]}
+{"type": "simplex", "id": "S0", "vertices": ["w0", "w1", "w2", "w3"], "truthful": "r0-root-0", "branches": [1, 0], "deviated": "r0-root-1"}
+{"type": "simplex", "id": "S1", "vertices": ["w0", "w1", "w4", "w3"], "truthful": "r0-root-0", "branches": [1, 0], "deviated": "r0-root-0"}
+{"type": "simplex", "id": "S2", "vertices": ["w0", "w5", "w2", "w3"], "truthful": "r0-root-1", "branches": [1, 0], "deviated": "r0-root-1"}
+{"type": "simplex", "id": "S3", "vertices": ["w0", "w5", "w6", "w3"], "truthful": "r0-root-1", "branches": [1, 1], "deviated": "r0-root-1"}
+{"type": "simplex", "id": "S4", "vertices": ["w0", "w7", "w4", "w3"], "truthful": "r0-root-0", "branches": [1, 1], "deviated": "r0-root-0"}
+{"type": "simplex", "id": "S5", "vertices": ["w0", "w7", "w6", "w3"], "truthful": "r0-root-1", "branches": [1, 1], "deviated": "r0-root-0"}
+{"type": "split", "id": "root", "normal": ["-1", "1", "0"], "offset": "0", "minus": "rootm", "plus": "rootp"}
+{"type": "split", "id": "rootm", "normal": ["-1", "0", "1"], "offset": "0", "minus": "rootmm", "plus": "rootmp"}
+{"type": "split", "id": "rootmm", "normal": ["0", "-1", "1"], "offset": "0", "minus": "rootmmm", "plus": "rootmmp"}
+{"type": "leaf", "id": "rootmmm", "simplex": "S0"}
+{"type": "leaf", "id": "rootmmp", "simplex": "S1"}
+{"type": "leaf", "id": "rootmp", "simplex": "S4"}
+{"type": "split", "id": "rootp", "normal": ["-1", "0", "1"], "offset": "0", "minus": "rootpm", "plus": "rootpp"}
+{"type": "leaf", "id": "rootpm", "simplex": "S2"}
+{"type": "split", "id": "rootpp", "normal": ["0", "-1", "1"], "offset": "0", "minus": "rootppm", "plus": "rootppp"}
+{"type": "leaf", "id": "rootppm", "simplex": "S3"}
+{"type": "leaf", "id": "rootppp", "simplex": "S5"}
+{"type": "end"}
+{"type": "root", "key": {"agent": 1, "edges": [0, 0, 0]}, "tree": "root"}
+{"type": "vertex", "id": "w0", "point": [{"vertex": "a"}, {"vertex": "a"}, {"vertex": "a"}]}
+{"type": "vertex", "id": "w1", "point": [{"vertex": "b"}, {"vertex": "a"}, {"vertex": "a"}]}
+{"type": "vertex", "id": "w2", "point": [{"vertex": "b"}, {"vertex": "b"}, {"vertex": "a"}]}
+{"type": "vertex", "id": "w3", "point": [{"vertex": "b"}, {"vertex": "b"}, {"vertex": "b"}]}
+{"type": "vertex", "id": "w4", "point": [{"vertex": "b"}, {"vertex": "a"}, {"vertex": "b"}]}
+{"type": "vertex", "id": "w5", "point": [{"vertex": "a"}, {"vertex": "b"}, {"vertex": "a"}]}
+{"type": "vertex", "id": "w6", "point": [{"vertex": "a"}, {"vertex": "b"}, {"vertex": "b"}]}
+{"type": "vertex", "id": "w7", "point": [{"vertex": "a"}, {"vertex": "a"}, {"vertex": "b"}]}
+{"type": "simplex", "id": "S0", "vertices": ["w0", "w1", "w2", "w3"], "truthful": "r0-root-0", "branches": [1, 1], "deviated": "r0-root-0"}
+{"type": "simplex", "id": "S1", "vertices": ["w0", "w1", "w4", "w3"], "truthful": "r0-root-0", "branches": [1, 1], "deviated": "r0-root-0"}
+{"type": "simplex", "id": "S2", "vertices": ["w0", "w5", "w2", "w3"], "truthful": "r0-root-1", "branches": [0, 0], "deviated": "r0-root-0"}
+{"type": "simplex", "id": "S3", "vertices": ["w0", "w5", "w6", "w3"], "truthful": "r0-root-1", "branches": [0, 0], "deviated": "r0-root-1"}
+{"type": "simplex", "id": "S4", "vertices": ["w0", "w7", "w4", "w3"], "truthful": "r0-root-0", "branches": [1, 1], "deviated": "r0-root-1"}
+{"type": "simplex", "id": "S5", "vertices": ["w0", "w7", "w6", "w3"], "truthful": "r0-root-1", "branches": [0, 0], "deviated": "r0-root-1"}
+{"type": "split", "id": "root", "normal": ["-1", "1", "0"], "offset": "0", "minus": "rootm", "plus": "rootp"}
+{"type": "split", "id": "rootm", "normal": ["-1", "0", "1"], "offset": "0", "minus": "rootmm", "plus": "rootmp"}
+{"type": "split", "id": "rootmm", "normal": ["0", "-1", "1"], "offset": "0", "minus": "rootmmm", "plus": "rootmmp"}
+{"type": "leaf", "id": "rootmmm", "simplex": "S0"}
+{"type": "leaf", "id": "rootmmp", "simplex": "S1"}
+{"type": "leaf", "id": "rootmp", "simplex": "S4"}
+{"type": "split", "id": "rootp", "normal": ["-1", "0", "1"], "offset": "0", "minus": "rootpm", "plus": "rootpp"}
+{"type": "leaf", "id": "rootpm", "simplex": "S2"}
+{"type": "split", "id": "rootpp", "normal": ["0", "-1", "1"], "offset": "0", "minus": "rootppm", "plus": "rootppp"}
+{"type": "leaf", "id": "rootppm", "simplex": "S3"}
+{"type": "leaf", "id": "rootppp", "simplex": "S5"}
+{"type": "end"}

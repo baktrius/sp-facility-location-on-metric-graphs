@@ -1,0 +1,21 @@
+[
+  {
+    "configuration": "c6_pendant-n3",
+    "direction": "lower",
+    "certificate": "certificates/lower/c6_pendant-n3.json.xz",
+    "expected_bound": "525470331826477/500000617804342",
+    "sha256": "24ef210aae74f41550ad29118565894dd12fb9b9c3e9ef2e1c480fc2af7ff761",
+    "exit_code": 0,
+    "stdout": "525470331826477/500000617804342\n",
+    "stderr": "",
+    "seconds": 4.3976163449988235,
+    "members": {
+      "c6_pendant-n3.json": {
+        "bytes": 895209,
+        "sha256": "868ee8add178d99446440898104371158c0315ba2b5e0cace66e7631477dd1f9"
+      }
+    },
+    "accepted": true,
+    "status": "accepted"
+  }
+]

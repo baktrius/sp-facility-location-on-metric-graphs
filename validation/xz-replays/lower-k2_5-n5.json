@@ -1,0 +1,21 @@
+[
+  {
+    "configuration": "k2_5-n5",
+    "direction": "lower",
+    "certificate": "certificates/lower/k2_5-n5.json.xz",
+    "expected_bound": "56679367551317/50000000000000",
+    "sha256": "999374eb04422a253eb810dc16c2187dc2e27c1ee4212f4e9d5ccd06ca4bfe5c",
+    "exit_code": 0,
+    "stdout": "56679367551317/50000000000000\n",
+    "stderr": "",
+    "seconds": 440.17979210600606,
+    "members": {
+      "k2_5-n5.json": {
+        "bytes": 54342559,
+        "sha256": "cc165acc16d6cf838f765b6ebfd8df9c87cc5a2009a06135b00bcc2564a45a3e"
+      }
+    },
+    "accepted": true,
+    "status": "accepted"
+  }
+]

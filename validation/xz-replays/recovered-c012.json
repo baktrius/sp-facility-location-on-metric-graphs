@@ -1,0 +1,37 @@
+[
+  {
+    "configuration": "c012",
+    "direction": "upper",
+    "certificate": "certificates/upper/lsp-recovered/c012.tar.xz",
+    "expected_bound": "118617969/100000000",
+    "sha256": "9876a2bf83781625e2b4dcf837adb471fd2ab1635d3e8e6524f87defb99d893e",
+    "exit_code": 0,
+    "stdout": "118617969/100000000\n",
+    "stderr": "",
+    "seconds": 1152.5710216029984,
+    "members": {
+      "approximation.jsonl": {
+        "bytes": 11249646,
+        "sha256": "91280101af1dde4ce4b70e5b077959cff0f684fa4d3291b70d99cac80d935ef2"
+      },
+      "attribution.jsonl": {
+        "bytes": 4772836,
+        "sha256": "b91cbe6b11b315bc5034376e3e80d4420481b767cb05b39f96e177a3ba2d9f13"
+      },
+      "manifest.json": {
+        "bytes": 1256,
+        "sha256": "409fe0c6afeaa5cea757104cf73f3136a60c2692cac601806ffb9229be2c3729"
+      },
+      "sp.jsonl": {
+        "bytes": 493676352,
+        "sha256": "1c840beead4f193fe4cab470a0ddd60a029513e697cb1d0044b742355e7bf40f"
+      },
+      "vertices.jsonl": {
+        "bytes": 125898,
+        "sha256": "5391847e292d2de6ea93caa712178f1df21230b45d2d11be5b85ac4454b30a4c"
+      }
+    },
+    "accepted": true,
+    "status": "accepted"
+  }
+]

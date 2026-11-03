@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "origin": "archived experiment",
+  "source_directory": "runs/c8-s2-20261026T111050Z/c8-s2",
+  "phases": {
+    "search": {
+      "wall_seconds": 2.68,
+      "peak_rss_kib": 180444,
+      "exit_code": 0
+    },
+    "check": {
+      "wall_seconds": 33.51,
+      "peak_rss_kib": 199212,
+      "exit_code": 0
+    }
+  },
+  "primary_model": {
+    "rows": 808,
+    "columns": 109,
+    "elements": 3747
+  },
+  "source_log_sha256": "9a0bef6c6cc14eb31007e15d54ba239ebd2c8f3b9f5202de31054c58a7f32d89",
+  "artifact_sha256": {
+    "mechanism.json": "dfd11a2b9baa34abfe2d51e1cdd14636a0e8d1395b1c771038af80c34e205b5e",
+    "check.json": "2defe4c46b974c621976e1e704d143ab3e92e5a9f0996a1e5b40800cdee8e669"
+  }
+}

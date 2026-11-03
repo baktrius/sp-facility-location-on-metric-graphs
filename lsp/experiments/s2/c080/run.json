@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "origin": "archived experiment",
+  "source_directory": "runs/manual-ladder-20261024T200157Z/c80-s2",
+  "phases": {
+    "search": {
+      "wall_seconds": 16785.1,
+      "peak_rss_kib": 7918584,
+      "exit_code": 0
+    },
+    "check": {
+      "wall_seconds": 3547.73,
+      "peak_rss_kib": 8340460,
+      "exit_code": 0
+    }
+  },
+  "primary_model": {
+    "rows": 541426,
+    "columns": 9721,
+    "elements": 3379737
+  },
+  "source_log_sha256": "b3e88d3525934aec2acc879c3b352f249e5a72d909fa5d86264a7844e15284ba",
+  "artifact_sha256": {
+    "mechanism.json": "f3fe3e0f0e295d83311290b65a84ac15e021ba5168889c16144aa11a4ca35684",
+    "check.json": "4fe9f735498582c503ed6f72b379d9cdadfaf812eef013d2e4d4350049794edb"
+  }
+}

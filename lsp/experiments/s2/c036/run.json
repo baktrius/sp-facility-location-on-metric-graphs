@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "origin": "archived experiment",
+  "source_directory": "runs/main-ladder-20261024T152414Z-2D8H1H/c36-s2-local0-avg1",
+  "phases": {
+    "search": {
+      "wall_seconds": 210.622,
+      "user_seconds": 209.759,
+      "system_seconds": 0.866,
+      "peak_rss_kib": 2766716,
+      "exit_code": 0
+    },
+    "check": {
+      "wall_seconds": 502.782,
+      "user_seconds": 502.403,
+      "system_seconds": 0.53,
+      "peak_rss_kib": 1149048,
+      "exit_code": 0
+    }
+  },
+  "primary_model": {
+    "rows": 52599,
+    "columns": 1999,
+    "elements": 313318
+  },
+  "source_log_sha256": "331597c7c793bb8d7143c30d3343e83b1c4d685e2e44ad5d37c19b2acd11c419",
+  "artifact_sha256": {
+    "mechanism.json": "0ae6476ecc5d20b7ab82e0c563724399fb56c47ffc6fd256fecd63fd1d05492e",
+    "check.json": "0a9d14003503e39d3cd3a28264166ab75a678f2fedeace9c821ed57f99c98875"
+  }
+}
