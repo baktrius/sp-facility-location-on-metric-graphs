@@ -58,12 +58,29 @@ reuses the upper verifier's environment.
 
 ## Reproducing the results
 
-Certificate files will be distributed separately from the GitHub repository,
-with hosting on Zenodo planned. Download instructions and the archive DOI will
-be added here when available. The complete local bundle already contains these
-files under `certificates/`. Its `.json.xz` and `.tar.xz` downloads are excluded
-from Git by [`.gitignore`](.gitignore); the packaging manifest and checksum index
-remain part of the source repository.
+The [STOC 2027 submission downloads](https://students.mimuw.edu.pl/~krzysztor/stoc2027-downloads/)
+provide all **33 certificate files** (about **2.09 GB**), their checksums and
+packaging manifest, and a source archive of the
+[`stoc2027-submission`](https://github.com/baktrius/sp-facility-location-on-metric-graphs/tree/stoc2027-submission)
+snapshot.
+
+Download the certificates and preserve these paths relative to the repository
+root:
+
+- `certificates/lower/`: 16 lower-bound `.json.xz` files.
+- `certificates/upper/`: 13 graph upper-bound `.tar.xz` files.
+- `certificates/upper/lsp-recovered/`: four recovered cycle `.tar.xz` files.
+
+Keep the files compressed; the verification script handles decompression.
+After downloading all 33 files, check the source and certificate bytes from the
+repository root:
+
+```sh
+sha256sum -c checksums.sha256
+```
+
+The compressed downloads are excluded from Git by [`.gitignore`](.gitignore);
+the packaging manifest and checksum index remain part of the source repository.
 
 - **Verify the published upper and lower bounds.** Follow the
   [verification guide](scripts/README.md) to check the supplied certificates.
