@@ -1,7 +1,9 @@
 # Search and Verification for Strategyproof Facility Location on Metric Graphs
 
 This repository contains the experimental artifacts accompanying the paper by
-**Krzysztof Rogowski and Marcin Dziubiński** (arXiv link forthcoming).
+**Krzysztof Rogowski and Marcin Dziubiński**:
+[Search and Verification for Strategyproof Facility Location on Metric Graphs](https://arxiv.org/abs/2611.05092)
+(arXiv:2611.05092).
 This work was supported by the Polish National Science Centre through grant
 2021/42/E/HS4/00196.
 
@@ -107,6 +109,19 @@ The code, documentation and experimental data are released under the
 If you use these materials, please consider citing the accompanying article:
 
 > Krzysztof Rogowski and Marcin Dziubiński. *Search and Verification for
-> Strategyproof Facility Location on Metric Graphs*. arXiv identifier forthcoming.
+> Strategyproof Facility Location on Metric Graphs*. 2026.
+> [arXiv:2611.05092](https://arxiv.org/abs/2611.05092).
 
 Citation is appreciated but is not a condition of reuse under the MIT License.
+
+```bibtex
+@misc{rogowski2026searchverificationstrategyprooffacility,
+      title={Search and Verification for Strategyproof Facility Location on Metric Graphs},
+      author={Krzysztof Rogowski and Marcin Dziubiński},
+      year={2026},
+      eprint={2611.05092},
+      archivePrefix={arXiv},
+      primaryClass={cs.GT},
+      url={https://arxiv.org/abs/2611.05092},
+}
+```
